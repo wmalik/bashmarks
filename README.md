@@ -1,3 +1,5 @@
+Updated bashmarks to use G instead of g, because g is already taken (by git).
+
 ### Bashmarks is a shell script that allows you to save and jump to commonly used directories. Now supports tab completion.
 
 ## Install
@@ -9,7 +11,7 @@
 ## Shell Commands
 
     s <bookmark_name> - Saves the current directory as "bookmark_name"
-    g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
+    G <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
     p <bookmark_name> - Prints the directory associated with "bookmark_name"
     d <bookmark_name> - Deletes the bookmark
     l                 - Lists all available bookmarks
